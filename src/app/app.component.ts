@@ -38,6 +38,7 @@ export class AppComponent {
    * oldRange=(oldMax-oldMin)
    * newRange=(newMax-newMin)
    * newValue=(((oldValue-oldMin)*newRange)/oldRange)+newMin
+   * https://stackoverflow.com/questions/929103/convert-a-number-range-to-another-range-maintaining-ratio
    */
   sendData(){
     if(!(this.gaugeValue > this.gaugeMax && this.gaugeValue<this.gaugeMin)){
