@@ -1,0 +1,23 @@
+ngx-gauge{
+  margin: 20px;
+  align-self: center;
+}
+.analog-out{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+}
+
+mat-slider{
+
+  /* width: 200px; */
+  align-self: center;
+}
+.for-number{
+  align-self: center;
+  width: 150px;
+}
+button{
+  align-self: flex-end;
+}
